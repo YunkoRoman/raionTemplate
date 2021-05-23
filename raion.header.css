@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    width: 1920px;
+    height: 4622px;
+    background: #FFFFFF;
+}
+
+header {
+
+    width: 1920px;
+    height: 96px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 8px rgba(151, 151, 151, 0.12);
+}
+
+.logo {
+    background-image: url(assets/raion.png);
+    width: 114px;
+    height: 30px;
+
+}
+
+.head_logoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 194px;
+}
+
+.head_navBlock {
+    margin-left: 529px;
+    width: 475px;
+    height: 100%;
+
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_link{
+    color: #000000;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.nav_link:hover{
+    text-decoration: underline;
+}
+.head_authBlock{
+    width: 312px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 325px;
+
+    justify-content: space-between;
+}
+.singIn_btn{
+    width: 138px;
+    height: 46px;
+    border: 1px solid #1C1C1C;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singUp_btn{
+    width: 140px;
+    height: 48px;
+    background-color: #1C1C1C;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.singUp_btn:hover{
+    cursor: pointer;
+    background: #665F5F;
+
+}
+.singIn_btn:hover{
+    cursor: pointer;
+    background: #488EAA26;
+
+}
+.singUp_btn>p{
+    color: #FFFFFF;
+}
+.btn_text{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}

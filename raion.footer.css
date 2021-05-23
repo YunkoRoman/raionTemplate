@@ -1,0 +1,103 @@
+footer{
+    position: absolute;
+    width: 1920px;
+    height: 300px;
+    margin-top: 200px;
+    background: #262626;
+}
+.footer_logoBlock{
+    margin-top: 48px;
+
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.footer_logo{
+    background: url(assets/raionWhite.png);
+    width: 132px;
+    height: 35px;
+}
+.footer_nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 16px;
+    margin-top: 48px;
+}
+.fotter_nav_link{
+    margin-left: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    height: 16px;
+}
+.fotter_nav_link:hover{
+    text-decoration: underline;
+}
+.footer_underline{
+    margin: 56px 100px 0 100px;
+    border-bottom: 1px solid #979797;
+}
+.footer_bottomBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 100px 0 100px;
+    height: 18px;
+}
+.owner>p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.socialLink{
+    width: 132px;
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+}
+.facebook{
+    background: url(assets/PathFacebook.png);
+    width: 18px;
+    height: 18px;
+}
+.facebook:hover{
+   cursor: pointer;
+}
+.twitter:hover{
+   cursor: pointer;
+}
+.linkedin:hover{
+   cursor: pointer;
+}
+.instagram:hover{
+   cursor: pointer;
+}
+.twitter{
+    background: url(assets/PathTwitter.png);
+    width: 18px;
+    height: 18px;
+}
+.linkedin{
+    background: url(assets/PathLinkedin.png);
+    width: 18px;
+    height: 18px;
+}
+.instagram{
+    background: url(assets/PathInstagram.png);
+    width: 18px;
+    height: 18px;
+}
